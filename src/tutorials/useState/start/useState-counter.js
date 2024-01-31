@@ -7,6 +7,13 @@ const UseStateCounter = () => {
     /* 1 */
     setCounter(0);
   };
+
+  const lateIncrease = () => {
+    setTimeout(() => {
+      setCounter((prevState) => prevState + 1);
+    }, 2000);
+  };
+
   return (
     <>
       <h1>Clock Counter</h1>
@@ -28,6 +35,13 @@ const UseStateCounter = () => {
       >
         Increase
       </button>
+      <section style={{ marginTop: "4rem" }}>
+        <h1>Complex Time Counter</h1>
+        <h1>{counter}</h1>
+        <button className="btn" onClick={lateIncrease}>
+          Increase later
+        </button>
+      </section>
     </>
   );
 };
