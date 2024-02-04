@@ -1,5 +1,5 @@
 import React from "react";
-import Start from "./tutorials/useState/start/useState-counter"; /* 1 */
+import Start from "./tutorials/useEffect/useEffect-basics";
 
 function App() {
   return (
@@ -12,6 +12,4 @@ function App() {
 export default App;
 
 /************ COMMENTS ************
-
-***1: The naming of default exports is arbitrary.
-*/
+ */
