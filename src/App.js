@@ -1,5 +1,5 @@
 import React from "react";
-import Start from "./tutorials/useEffect/useEffect-cleanup";
+import Start from "./tutorials/useEffect/useEffect-fetch-data";
 
 function App() {
   return (
