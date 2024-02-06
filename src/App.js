@@ -1,5 +1,5 @@
 import React from "react";
-import Start from "./tutorials/conditional-rendering/short-circuit";
+import Start from "./tutorials/conditional-rendering/show-hide";
 
 function App() {
   return (
