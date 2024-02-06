@@ -1,5 +1,5 @@
 import React from "react";
-import Start from "./tutorials/conditional-rendering/multiple-returns";
+import Start from "./tutorials/conditional-rendering/short-circuit";
 
 function App() {
   return (
