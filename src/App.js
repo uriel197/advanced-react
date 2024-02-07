@@ -1,5 +1,5 @@
 import React from "react";
-import Start from "./tutorials/conditional-rendering/show-hide";
+import Start from "./tutorials/forms/controlled-inputs";
 
 function App() {
   return (
